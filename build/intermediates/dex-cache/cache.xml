@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Strix\.gradle\caches\modules-2\files-2.1\org.bytedeco.javacpp-presets\flycapture\2.8.3.1-1.1\edfb32efdb932836f1fc9e297a934f7585c15ba7\flycapture-2.8.3.1-1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="edfb32efdb932836f1fc9e297a934f7585c15ba7">
+        <dex dex="C:\Users\Strix\Desktop\TouchToRecord-master\VideoRecorder\app\build\intermediates\pre-dexed\debug\flycapture-2.8.3.1-1.1_2193c786c7d526be1a1d04490dc93d0ea3773c13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Strix\.gradle\caches\modules-2\files-2.1\org.bytedeco.javacpp-presets\ffmpeg\2.8.1-1.1\e887e3cf952e0aa10212467c399d94a4daa78e2e\ffmpeg-2.8.1-1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e887e3cf952e0aa10212467c399d94a4daa78e2e">
+        <dex dex="C:\Users\Strix\Desktop\TouchToRecord-master\VideoRecorder\app\build\intermediates\pre-dexed\debug\ffmpeg-2.8.1-1.1_038f2d0a65f90b6eb48f9baea709d824dde801c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Strix\.gradle\caches\modules-2\files-2.1\org.bytedeco.javacpp-presets\videoinput\0.200-1.1\dc9e5a91c5c5bbe202c040a05e205919e7e506e2\videoinput-0.200-1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dc9e5a91c5c5bbe202c040a05e205919e7e506e2">
+        <dex dex="C:\Users\Strix\Desktop\TouchToRecord-master\VideoRecorder\app\build\intermediates\pre-dexed\debug\videoinput-0.200-1.1_a189f0af0add93bcfb5d14fa703fc9f12d546972.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Strix\.gradle\caches\modules-2\files-2.1\org.bytedeco.javacpp-presets\libdc1394\2.2.3-1.1\cc4729d31a845dac338b851ff980fa4b3a6f50c9\libdc1394-2.2.3-1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="cc4729d31a845dac338b851ff980fa4b3a6f50c9">
+        <dex dex="C:\Users\Strix\Desktop\TouchToRecord-master\VideoRecorder\app\build\intermediates\pre-dexed\debug\libdc1394-2.2.3-1.1_05f2ae46ab51690572cef71604b637ba51362644.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Strix\.gradle\caches\modules-2\files-2.1\org.bytedeco.javacpp-presets\libfreenect\0.5.3-1.1\113cc95b2408698cf22588e60ac5e25734d8a260\libfreenect-0.5.3-1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="113cc95b2408698cf22588e60ac5e25734d8a260">
+        <dex dex="C:\Users\Strix\Desktop\TouchToRecord-master\VideoRecorder\app\build\intermediates\pre-dexed\debug\libfreenect-0.5.3-1.1_076b13410324067d092342b3b5b223b3878f088e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Strix\.gradle\caches\modules-2\files-2.1\org.bytedeco.javacpp-presets\flandmark\1.07-1.1\1119273894b2f9aa27d02f8d4a9a0737894e54f5\flandmark-1.07-1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1119273894b2f9aa27d02f8d4a9a0737894e54f5">
+        <dex dex="C:\Users\Strix\Desktop\TouchToRecord-master\VideoRecorder\app\build\intermediates\pre-dexed\debug\flandmark-1.07-1.1_222c501ba2dda9f6b55be0c47bc57e9fbee19846.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Strix\.gradle\caches\modules-2\files-2.1\org.bytedeco\javacpp\1.1\1cc4b5dd88edd3dd3d6f4cdbd3c23c7273ebf0ea\javacpp-1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1cc4b5dd88edd3dd3d6f4cdbd3c23c7273ebf0ea">
+        <dex dex="C:\Users\Strix\Desktop\TouchToRecord-master\VideoRecorder\app\build\intermediates\pre-dexed\debug\javacpp-1.1_5f4fe0108cde40be3ffe09054ae5c874486323ee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Strix\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="C:\Users\Strix\Desktop\TouchToRecord-master\VideoRecorder\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0_78a8172c5c045d94eaecac080bc933cc27b35bb6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Strix\.gradle\caches\modules-2\files-2.1\org.bytedeco.javacpp-presets\opencv\3.0.0-1.1\902947d7faea1294a98e7c1aea76a581fe558a76\opencv-3.0.0-1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="902947d7faea1294a98e7c1aea76a581fe558a76">
+        <dex dex="C:\Users\Strix\Desktop\TouchToRecord-master\VideoRecorder\app\build\intermediates\pre-dexed\debug\opencv-3.0.0-1.1_b2ae61bb916d197b5c1ffc3f0c77c198e8674a3f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Strix\.gradle\caches\modules-2\files-2.1\org.bytedeco\javacv\1.1\8b045838ae7e1fc31f0d407c6ab76933e7bddadb\javacv-1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8b045838ae7e1fc31f0d407c6ab76933e7bddadb">
+        <dex dex="C:\Users\Strix\Desktop\TouchToRecord-master\VideoRecorder\app\build\intermediates\pre-dexed\debug\javacv-1.1_2187e1b94801927740da8699a05285132aa61263.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Strix\.gradle\caches\modules-2\files-2.1\org.bytedeco.javacpp-presets\artoolkitplus\2.3.1-1.1\7c2e2c018056b14b44c1a129412b4f660053d845\artoolkitplus-2.3.1-1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7c2e2c018056b14b44c1a129412b4f660053d845">
+        <dex dex="C:\Users\Strix\Desktop\TouchToRecord-master\VideoRecorder\app\build\intermediates\pre-dexed\debug\artoolkitplus-2.3.1-1.1_d9091f837975be4ac331ab1aa75b5034c7d3ba0e.jar" />
+    </item>
+
+</items>

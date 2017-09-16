@@ -1,0 +1,20 @@
+<resources>
+
+    <string name="app_name">Sourab VideoRecorder</string>
+    <string name="recorder_state_recording">Идет запись&#8230;</string>
+    <string name="recorder_state_min_recorded">Minimum video recorded.</string>
+    <string name="recorder_state_complete">Запись видео закончилось</string>
+    <string name="recorder_state_min_video_crossed">Recording and Minimum recording reached&#8230;</string>
+    <string name="recorder_state_press_to_record">Нажмите чтобы начать запись&#8230;</string>
+    <string name="cancel">Отменить</string>
+    <string name="next">Далее</string>
+    <string name="finish">Закончить</string>
+    <string name="confirm">Confirm</string>
+    <string name="processing">Идет загрузка&#8230;</string>
+    <string name="alert">Alert</string>
+    <string name="discard_video_msg">Would you like to discard recording?</string>
+    <string name="video_saved_path">Your video is saved at</string>
+
+
+
+</resources>
