@@ -56,30 +56,31 @@ public final class R {
         public static final int sign_video=0x7f02002a;
     }
     public static final class id {
-        public static final int btn_cancel=0x7f060015;
-        public static final int btn_confirm=0x7f060017;
-        public static final int divider=0x7f060016;
+        public static final int btn_cancel=0x7f060016;
+        public static final int btn_confirm=0x7f060018;
+        public static final int divider=0x7f060017;
         public static final int play_cancel=0x7f060001;
         public static final int play_finish=0x7f060002;
         public static final int preview_video=0x7f060004;
         public static final int preview_video_parent=0x7f060003;
         public static final int previre_play=0x7f060005;
         public static final int recorder_bottom=0x7f060000;
-        public static final int recorder_cancel=0x7f06000c;
-        public static final int recorder_flashlight=0x7f060008;
-        public static final int recorder_flashlight_parent=0x7f060006;
-        public static final int recorder_frontcamera=0x7f060009;
-        public static final int recorder_next=0x7f06000e;
-        public static final int recorder_progress=0x7f06000a;
-        public static final int recorder_progress_progressbar=0x7f060011;
-        public static final int recorder_progress_progresstext=0x7f060012;
-        public static final int recorder_progress_text=0x7f060010;
-        public static final int recorder_surface_parent=0x7f06000f;
-        public static final int recorder_surface_state=0x7f06000b;
-        public static final int startRecord=0x7f06000d;
-        public static final int txtTimer=0x7f060007;
-        public static final int txt_msg=0x7f060014;
-        public static final int txt_title=0x7f060013;
+        public static final int recorder_cancel=0x7f06000d;
+        public static final int recorder_flashlight=0x7f060009;
+        public static final int recorder_flashlight_parent=0x7f060007;
+        public static final int recorder_frontcamera=0x7f06000a;
+        public static final int recorder_next=0x7f06000f;
+        public static final int recorder_progress=0x7f06000b;
+        public static final int recorder_progress_progressbar=0x7f060012;
+        public static final int recorder_progress_progresstext=0x7f060013;
+        public static final int recorder_progress_text=0x7f060011;
+        public static final int recorder_surface_parent=0x7f060010;
+        public static final int recorder_surface_state=0x7f06000c;
+        public static final int startRecord=0x7f06000e;
+        public static final int timerCenter=0x7f060006;
+        public static final int txtTimer=0x7f060008;
+        public static final int txt_msg=0x7f060015;
+        public static final int txt_title=0x7f060014;
     }
     public static final class layout {
         public static final int activity_ffmpeg_preview=0x7f030000;

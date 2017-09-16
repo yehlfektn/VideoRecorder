@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Sep 17 01:02:18 ALMT 2017
+#Sun Sep 17 01:25:46 ALMT 2017
 60.set=ANDROID_RESOURCE
 52.set=NATIVE_RESOURCE
 53.base=C\:\\Users\\Strix\\Desktop\\TouchToRecord-master\\VideoRecorder\\app\\build\\intermediates\\res\\resources-debug.ap_

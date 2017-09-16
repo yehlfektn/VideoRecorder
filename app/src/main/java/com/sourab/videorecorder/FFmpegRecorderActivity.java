@@ -23,6 +23,7 @@ import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.CountDownTimer;
 import android.os.Environment;
 import android.os.Handler;
 import android.os.Message;
@@ -125,6 +126,7 @@ public class FFmpegRecorderActivity extends Activity implements OnClickListener,
     private ProgressView progressView;
     private TextView stateTextView;
     private TextView startRecord;
+    private TextView timerTextview;
     private String imagePath = null;
     private RecorderState currentRecorderState = RecorderState.PRESS;
 
@@ -302,6 +304,8 @@ public class FFmpegRecorderActivity extends Activity implements OnClickListener,
         flashIcon = (Button) findViewById(R.id.recorder_flashlight);
         switchCameraIcon = (Button) findViewById(R.id.recorder_frontcamera);
         flashIcon.setOnClickListener(this);
+        timerTextview = (TextView)findViewById(R.id.timerCenter);
+        timerTextview.bringToFront();
 
         if (getPackageManager().hasSystemFeature(PackageManager.FEATURE_CAMERA_FRONT)) {
             switchCameraIcon.setVisibility(View.VISIBLE);
@@ -371,32 +375,48 @@ public class FFmpegRecorderActivity extends Activity implements OnClickListener,
     startRecord.setOnClickListener(new OnClickListener() {
         @Override
         public void onClick(View view) {
-            isPressedRecord=!isPressedRecord;
-            if (!recordFinish) {
-                startRecord.setText("Следующий вопрос");
-                if (totalTime < totalRecordingTime) {
-                   if (isPressedRecord) {
-                       isRotateVideo = deviceOrientation == 0;
-                       mHandler.removeMessages(3);
-                       mHandler.removeMessages(4);
-                       mHandler.sendEmptyMessageDelayed(3, 300);
-                   }else{
-                       startRecord.setText("Запись");
-                            mHandler.removeMessages(3);
-                            if (recording) {
-                                recording = false;
-                                mHandler.removeMessages(4);
-                                mHandler.sendEmptyMessage(4);
-                            }
-                    }
-                } else {
-                    recording = false;
-                    saveRecording();
-                }
-        }}
+            onClickPlay();
+        }
     });
 
     }
+
+    public void onClickPlay(){
+        isPressedRecord=!isPressedRecord;
+        if (!recordFinish) {
+            startRecord.setVisibility(View.VISIBLE);
+            startRecord.setText("Следующий вопрос");
+            if (totalTime < totalRecordingTime) {
+                if (isPressedRecord) {
+                    isRotateVideo = deviceOrientation == 0;
+                    mHandler.removeMessages(3);
+                    mHandler.removeMessages(4);
+                    mHandler.sendEmptyMessageDelayed(3, 300);
+                }else{
+                    startRecord.setVisibility(View.GONE);
+                    startRecord.setText("Запись");
+                    new CountDownTimer(10000, 1000) {
+                        public void onTick(long millisUntilFinished) {
+                            timerTextview.setText(String.valueOf(millisUntilFinished / 1000));
+                        }
+
+                        public void onFinish() {
+                            onClickPlay();
+                        }
+                    }.start();
+                    mHandler.removeMessages(3);
+                    if (recording) {
+                        recording = false;
+                        mHandler.removeMessages(4);
+                        mHandler.sendEmptyMessage(4);
+                    }
+                }
+            } else {
+                recording = false;
+                saveRecording();
+            }
+        }
+    };
 
     private boolean setCamera() {
         try {
